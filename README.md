@@ -1,21 +1,26 @@
 # Twitter Scraping
 
+Table of contents
+=================
+
+<!--ts-->
+
+   * [Table of contents](#table-of-contents)
+   * [Overview](#overview)
+   * [Process](#process)
+   * [Programming Language and Libraries](#programming-language-and-libraries)
+   * [Installation](#installation)
+  
+ 
+<!--te-->
+
 Exploring the ETL Process through Twitter Scraping
 
 ## Overview
 A script that downloads tweets data on a specific search topic using the standard search API. 
 
-*Resources used:*
-- **Twitter API**
-- **Jupyter noteboook**
-- **Python 3.7**
-- **Tweepy**
-- **Pandas**
-- **Pymongo**
-- **MongoDB atlas**
 
-
-## Detailed steps
+## Process
 
 The script contains the following functions: 
 
@@ -48,4 +53,28 @@ The following attributes of the tweets would be extracted:<br>
         *Followers count
 
 
-The second part creates a MongoDB atlas database called Tweets_db and stores the extracted tweets into a 	collection named: raw_tweets.
+The second part creates a MongoDB atlas database called Tweets_db and stores the extracted tweets into a collection named: raw_tweets.
+
+## PROGRAMMING LANGUAGE AND LIBRARIES
+
+Language - Python3.7
+
+### For Data Extraction
+
+- Twitter API with Tweepy
+
+### For Data Manipulation
+
+- Pandas
+- Numpy 
+
+### For Loading Data
+
+- Pymongo
+
+## INSTALLATION
+-The program was developed with Jupyter Notebook and is compatible with Windows, Mac OS and Linux.
+It can be run on a local server
+
+
+
