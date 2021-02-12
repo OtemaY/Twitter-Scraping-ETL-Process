@@ -1,4 +1,5 @@
-# ETL_Twitter
+# Twitter Scraping
+
 Exploring the ETL Process through Twitter Scraping
 
 ## Overview
