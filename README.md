@@ -45,12 +45,12 @@ The following attributes of the tweets would be extracted:<br>
    * Likes count
    * User info
    * Username
-        *Screenname
-        *Location
-        *Friends count
-        *Verification status
-        *Description
-        *Followers count
+        * Screenname
+        * Location
+        * Friends count
+        * Verification status
+        * Description
+        * Followers count
 
 
 The second part creates a MongoDB atlas database called Tweets_db and stores the extracted tweets into a collection named: raw_tweets.
